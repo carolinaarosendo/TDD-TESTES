@@ -1,0 +1,28 @@
+{
+  "name": "tdd-testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:ui": "npx vitest --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinaarosendo/TDD-TESTES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinaarosendo/TDD-TESTES/issues"
+  },
+  "homepage": "https://github.com/carolinaarosendo/TDD-TESTES#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.1",
+    "vitest": "^4.1.1"
+  }
+}
