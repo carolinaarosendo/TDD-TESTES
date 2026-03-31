@@ -3,7 +3,6 @@ import { validateTitle } from '../src/taskManager.js';
 
 // ============================================================
 // 1. validateTitle
-// ============================================================
 
 describe('validateTitle', () => {
   it('deve retornar true para um título válido', () => {
